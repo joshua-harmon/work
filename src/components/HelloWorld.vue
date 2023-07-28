@@ -17,6 +17,7 @@
         <br>CALL (520) 300-6340, nk@World-of-work-services-coop.com
         <br>Kay or Josh Harmon, 141 S. 6th Ave, Unit 42, Tucson, Az 85702 </h5>
     </div>
+  </template>
 <script>
 export default {
   name: 'HelloWorld',
