@@ -27,10 +27,8 @@
     <button type="submit">Send</button>
   </p>
 </form>
-<form name="simpleContactForm" method="POST" data-netlify="true" id="simple-contact-form" class="contact-form">...</form>
 <textarea name="message" id="contact-form-message" rows="7"></textarea>
   <button type="submit" class="button">Send Message</button>
-</form>
   </div>
 </template>
 
