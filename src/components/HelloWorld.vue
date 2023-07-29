@@ -16,6 +16,34 @@
     </h4><h5 style = "color:brown">
     <br>CALL (520) 300-6340, nk@World-of-work-services-coop.com
     <br>Kay or Josh Harmon, 141 S. 6th Ave, Unit 42, Tucson, Az 85702 </h5>
+<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+<form name="simpleContactForm" method="POST" data-netlify="true" id="simple-contact-form" class="contact-form">...</form>
+  <p class="form-row">
+    <label id="contact-form-name-label" for="contact-form-name" class="form-label">Name</label>
+    <input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input" />
+  </p>
+  <p class="form-row">
+    <label id="contact-form-email-label" for="contact-form-email" class="form-label">Email address</label>
+    <input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" />
+  </p>
+  <p class="form-row">
+    <label id="contact-form-message-label" for="contact-form-message" class="form-label">Message</label>
+    <textarea name="message" id="contact-form-message" aria-labelledby="contact-form-message-label" class="form-textarea" rows="7"></textarea>
+  </p>
+  <p class="form-row form-submit">
+    <button type="submit" class="button">Send Message</button>
+  </p>
+</form>
   </div>
 </template>
 
