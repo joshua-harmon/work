@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-
     <h1 style = "color:blue; text-align:center">WORLD OF WORK SERVICES - COOP</h1>
 <h3 style = "color:green">    <br>Working with employment opportunities in: </h3>
 <h4 style = "color:magenta">   
@@ -16,17 +15,8 @@
     </h4><h5 style = "color:brown">
     <br>CALL (520) 300-6340, nk@World-of-work-services-coop.com
     <br>Kay or Josh Harmon, 141 S. 6th Ave, Unit 42, Tucson, Az 85702 </h5>
-<form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-</form>
   </div>
 </template>
-
 <script>
 export default {
   name: 'HelloWorld',
