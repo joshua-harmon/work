@@ -27,8 +27,6 @@
     <button type="submit">Send</button>
   </p>
 </form>
-<textarea name="message" id="contact-form-message" rows="7"></textarea>
-  <button type="submit" class="button">Send Message</button>
   </div>
 </template>
 
